@@ -58,7 +58,7 @@ function initializeServiceWorker() {
   if('serviceWorker' in navigator){
     window.addEventListener('load', async () => {
       try {
-        await navigator.serviceWorker.register('/sw.js');
+        await navigator.serviceWorker.register('./sw.js');
         console.log('Service worker successfully registered');
       } catch (error) {
         console.log(`Service worker registration failed: ${error.message}`);
