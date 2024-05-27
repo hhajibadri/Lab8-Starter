@@ -61,7 +61,7 @@ function initializeServiceWorker() {
         await navigator.serviceWorker.register('/sw.js');
         console.log('Service worker successfully registered');
       } catch (error) {
-        console.log('Service worker registration failed');
+        console.log(`Service worker registration failed: ${error.message}`);
       }
     });
   }
