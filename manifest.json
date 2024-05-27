@@ -1,14 +1,14 @@
 {
-    "name": "",
-    "short_name": "",
-    "description": "",
-    "start_url": "",
-    "display": "",
-    "background_color": "",
-    "theme_color": "",
+    "name": "Lab8-Starter",
+    "short_name": "Hugir Hajibadri",
+    "description": "Recipe Progressive Web App",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "black",
+    "theme_color": "green",
     "icons": [
       {
-        "src": "/assets/images/icons/icon-192x192.png",
+        "src": "./assets/images/icons/icon-192x192.png",
         "sizes": "192x192",
         "type": "image/png"
       }
